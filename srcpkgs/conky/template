@@ -8,8 +8,8 @@ configure_args="-DRELEASE=ON
  -DDOC_PATH=share/doc/${pkgname} -DBUILD_CURL=ON
  -DBUILD_RSS=ON -DBUILD_WLAN=ON -DBUILD_X11=ON -DBUILD_XDBE=ON -DBUILD_WAYLAND=ON -DBUILD_XDBE=ON
  -DBUILD_IMLIB2=ON -DBUILD_LUA_CAIRO=ON -DBUILD_LUA_IMLIB2=ON
- -DBUILD_LUA_RSVG=ON -DBUILD_XSHAPE=ON"
-hostmakedepends="libtool pkg-config docbook2x man-db toluapp gperf"
+ -DBUILD_LUA_RSVG=ON -DBUILD_XSHAPE=ON -DCMAKE_PREFIX_PATH=/usr -DCMAKE_FIND_ROOT_PATH_MODE_PACKAGE=NEVER"
+hostmakedepends="libtool pkg-config docbook2x man-db toluapp gperf wayland-devel wayland-protocols"
 makedepends="alsa-lib-devel imlib2-devel libXdamage-devel libXft-devel
  libXinerama-devel libcurl-devel librsvg-devel lua53-devel ncurses-devel
  toluapp-devel wireless_tools-devel cairo-devel wayland-devel wayland-protocols"
