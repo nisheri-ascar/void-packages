@@ -12,7 +12,7 @@ configure_args="-DRELEASE=ON
 hostmakedepends="libtool pkg-config docbook2x man-db toluapp gperf wayland-devel wayland-protocols"
 makedepends="alsa-lib-devel imlib2-devel libXdamage-devel libXft-devel
  libXinerama-devel libcurl-devel librsvg-devel lua53-devel ncurses-devel
- toluapp-devel wireless_tools-devel cairo-devel wayland-protocols wlroots-devel"
+ toluapp-devel wireless_tools-devel cairo-devel wayland-protocols wayland-devel wlroots-devel"
 short_desc="Lightweight system monitor for X and Wayland"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="BSD-3-Clause, GPL-3.0-or-later"
